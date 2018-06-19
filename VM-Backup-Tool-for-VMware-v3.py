@@ -3,7 +3,6 @@ import time
 import os
 import click
 import pysftp
-import time
 import schedule
 import sys
 import pathlib

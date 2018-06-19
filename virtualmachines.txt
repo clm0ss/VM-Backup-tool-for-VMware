@@ -1,0 +1,2 @@
+example-vm1-winserver2016
+example-vm2-ubuntuserver18

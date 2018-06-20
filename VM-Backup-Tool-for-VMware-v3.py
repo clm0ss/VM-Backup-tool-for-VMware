@@ -15,7 +15,6 @@ from datetime import datetime
 
 sessions = {}
 dirs = []
-split_dir = []
 files = []
 idk = []
 

@@ -9,6 +9,8 @@ add the virtual machines to download in the 'virtualmachines.txt' file, with eac
 
 if an intial connection session fails or the configuration text files are not found, the program will exit.
 
+To stop a download in progress, use CTRL+C, this should also end program when used at any other point.
+
 please contact clmoss@cisco.com for feature requests.
 
 Coded by clm0ss Clayton Moss (clmoss@cisco.com) 

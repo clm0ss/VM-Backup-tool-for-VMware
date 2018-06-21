@@ -115,6 +115,8 @@ def sftp_get():
         except Exception:
             print("\n No files left in download queue, continuing..\n\n")
             pass
+        else:
+            print("\n No files left in download queue for host %s, continuing..\n\n" % (host))
         dirs.clear()
 
     

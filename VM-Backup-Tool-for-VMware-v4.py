@@ -99,8 +99,6 @@ def sftp_get():
                         print(" VM '%s' found on host %s \n" % (vm,host))
                         try:
                             print(' Starting download of %s.. \n' % (folder))
-                            #pathlib.Path('backup%s-%s-%s' % (now.month,now.day,now.year)).mkdir(exist_ok=True)
-                            #localpath = 'backup%s-%s-%s' % (now.month,now.day,now.year)
                             path = Path('backup%s-%s-%s' % (start.month,start.day,start.year),vm)
                             path.mkdir(exist_ok=True, parents=True)
                             time.sleep(0.3)

@@ -67,7 +67,7 @@ def vmwarebackup(when=None):
             try:
                 print(" Next backup on %d|%d|%d ..\r\n" % (int(when) + int(date.day),date.month,date.year))
                 schedule.run_pending()
-                time.sleep(1500)
+                time.sleep(3600)
             except:
                 return vmwarebackup(when)
     else:

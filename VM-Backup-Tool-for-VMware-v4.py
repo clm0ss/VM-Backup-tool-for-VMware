@@ -122,7 +122,7 @@ def sftp_get():
 
     while get.is_alive():
         spin_icon = sys.stdout.write(spinner.__next__())
-        print (" Downloading..  %s bytes " % (getFolderSize(localpath_parent.strip('/'))), end='\r'),
+        print (" Downloading..  %s bytes " % (getFolderSize(localpath_parent.strip('/')))),
         sys.stdout.flush()
         sys.stdout.write('\b')
         time.sleep(0.1)

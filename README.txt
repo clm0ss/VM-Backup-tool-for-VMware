@@ -1,4 +1,4 @@
-* It is recommended to run the script with elevated permissions. *
+* It is recommended to run the script with elevated permissions & Python 3+ *
 
 This tool will backup VMs on multiple ESXi hosts, it will download the VMs whole directory and place everything into a folder named backup[month-date-year]
 
